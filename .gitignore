@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Java / Spring Boot / Maven / Gradle
+target/
+build/
+*.class
+.gradle/
+
+# pytest
+.pytest_cache/
+
+# Node (dashboard tooling, if any)
+node_modules/
+
+# Environment / secrets
+.env
+*.env.local
+
+# Docker
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data artifacts (generated, not committed — regenerate via data_generator/generate_data.py)
+*.csv
+*.parquet
+data_generator/output/
+# ...except the small, intentionally-committed data-quality results report:
+!data_quality/quality_report.csv
+
+# Secrets / credentials (defensive — none currently exist in this project)
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+*credentials*
+!**/*.example

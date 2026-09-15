@@ -1,0 +1,11 @@
+**/target/
+**/__pycache__/
+**/*.pyc
+.git/
+.gradle/
+node_modules/
+data_generator/output/
+analytics/charts/
+*.log
+.idea/
+.vscode/
