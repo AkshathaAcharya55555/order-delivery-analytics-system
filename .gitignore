@@ -51,3 +51,6 @@ data_generator/output/
 .aws/
 *credentials*
 !**/*.example
+
+# Agent skill build output (regenerate with python skill/build_zip.py)
+skill/dist/
